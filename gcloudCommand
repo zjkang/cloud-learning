@@ -1,0 +1,36 @@
+from: youtube小马技术gcp
+
+gcloud help
+gcloud auth login
+gcloud init —console-only
+gcloud  info
+gcloud projects list
+gcloud auth list
+
+
+gcloud config list
+gcloud config list account (core session by default)
+gcloud config list project
+gcloud config list compute/region
+gcloud config set compute/zone asia-northeast1-a
+gcloud config set —help
+
+gcloud config configurations list
+gcloud config configurations create my-first-project  # create configuration my-first-project
+gcloud config set project [project-id]
+gcloud config configurations activate default
+gcloud config configurations describe my-first-project
+gcloud config configurations delete my-first-project
+
+
+set up vm
+gcloud compute instances create koma-vm-by-cloud —machine-type=e2-micro
+gcloud compute instances list
+gcloud compute instances describe koma-vm-by-cloud
+gcloud compute instances stop koma-vm-by-cloud
+gcloud compute instances delete koma-vm-by-cloud
+
+ls ~/.config/gcloud/configurations
+
+gcloud sql connect mysql-instance     --user=root
+> mysql show tables
