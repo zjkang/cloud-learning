@@ -1,0 +1,13 @@
+Differences between IaaS, PaaS, and SaaS
+
+In Google Cloud Platform (GCP), IaaS, PaaS, and SaaS refer to different levels of cloud computing services that are offered to users. 
+Here is a brief overview of each:
+
+Infrastructure as a Service (IaaS): This is the lowest level of cloud computing service where the cloud provider offers virtualized computing resources such as virtual machines (VMs), storage, and networking. With IaaS, users have full control over the infrastructure layer, including the operating system and the applications that run on it. Google Compute Engine (GCE) is an example of an IaaS offering in GCP.
+
+Platform as a Service (PaaS): At this level, the cloud provider offers a platform that allows users to build, deploy, and manage applications without worrying about the underlying infrastructure. PaaS typically provides a complete development and deployment environment, including programming languages, libraries, frameworks, and tools. Google App Engine is an example of a PaaS offering in GCP.
+
+Software as a Service (SaaS): At this highest level, the cloud provider offers a complete software application that users can access over the internet. The provider hosts and manages the application and all the underlying infrastructure, and users access the software through a web browser or a mobile app. Examples of SaaS offerings in GCP include Google Workspace (formerly G Suite) and Google Cloud Search.
+
+Overall, the key difference between these three cloud computing service models is the level of abstraction and control that users have over the underlying infrastructure and the applications that run on it. IaaS gives users the most control but requires the most management and maintenance, while SaaS provides the least control but requires the least management and maintenance. PaaS falls somewhere in between, offering a balance between control and convenience.
+
