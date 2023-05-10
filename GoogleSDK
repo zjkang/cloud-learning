@@ -34,3 +34,15 @@ ls ~/.config/gcloud/configurations
 
 gcloud sql connect mysql-instance     --user=root
 > mysql show tables
+
+
+set env variable
+$ INFRACLASS_REGION=us-east1
+$ echo $INFRACLASS_REGION
+$ echo INFRACLASS_PROJECT_ID=$INFRACLASS_PROJECT_ID >> ~/infraclass/config
+
+
+
+
+
+
